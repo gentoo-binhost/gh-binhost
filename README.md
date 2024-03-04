@@ -1,2 +1,2 @@
 # gh-binhost
-github-based gentoo binary package cache
+Implementation of binhost with live update and capability of handling packages with different use flags from multiple system.
