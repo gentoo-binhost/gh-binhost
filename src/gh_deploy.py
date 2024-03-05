@@ -178,7 +178,7 @@ class GitHubConfig:
         print('Uploaded ' + pkg.file_name)
 
         try:
-            commitMsg = pkg.category + "-" + pkg.version + (" updated" if updated else " added")
+            commitMsg = pkg.category + '/' + pkg.name + "-" + pkg.version + (" updated" if updated else " added")
             manifest = ""
             with open(pkg.manifest_path, 'r') as file:
                 manifest = file.read()
